@@ -1,0 +1,408 @@
+
+.music{
+	height: 30px;
+	width: 30px;
+	background: url(../img/music.png) no-repeat center center;
+	background-size: 30px 30px;
+	position: absolute;
+	top: 3%;
+	right: 6%;
+	z-index: 99;
+	animation-name: box;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@keyframes box {
+			0%{ transform:rotateZ(0deg); }
+			100%{transform:rotateZ(360deg);}
+		}
+
+/*==========pic-1==========*/
+.pic-1{
+	background-image:url(../img/bg.png); 
+	background-size: cover; 
+	position: relative;
+}
+.p1-1{
+	font-family: "微软雅黑"; 
+	font-weight: bold; 
+	font-size: 25px;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top:8%;
+	left:30%;
+}
+.p1-2{
+	font-family: "微软雅黑"; 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top:15%;
+	left:33%;
+}
+.p1-3{
+	width: 266px;
+	height: auto;
+	position: absolute;
+	top: 17%;
+	left: 6%;
+}
+.p1-4{
+	width: 55px;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+.p1-5{
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 5%;
+	left: 43%;
+}
+/*==========pic-2==========*/
+.pic-2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bg-1.png);
+	background-size:cover;
+}
+.p2-1{
+	position: absolute;
+	top: 10%;
+	left: 16%;
+}
+.p2-2{
+	position: absolute;
+	top: 10%;
+	left: 57%;
+}
+.p2-3{
+	position: absolute;
+	top: 11%;
+	left: 11%;
+}
+.p2-4{
+	position: absolute;
+	top: 9%;
+	left: 30%;
+	z-index: 10;
+}
+.p2-5{
+	position: absolute;
+	top: 19%;
+	left: 34%;
+}
+.p2-6{
+	position: absolute;
+	top: 28%;
+	left: 31%;
+}
+.p2-7{
+	position: absolute;
+	top: 38%;
+	left: 31%;
+}
+.p2-8{
+	position: absolute;
+	top: 48%;
+	left: 31%;
+}
+.p2-9{
+	position: absolute;
+	top: 58%;
+	left: 31%;
+}
+.p2-10{
+	position: absolute;
+	bottom: 22%;
+	left: 43%;
+}
+.p2-11{
+	position: absolute;
+	bottom: 19%;
+	left: 36%;
+	animation-name: box;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@keyframes box {
+			0%{ transform:rotateZ(0deg); }
+			50%{transform:rotateZ(180deg);}
+			75%{transform: rotateZ(250deg);}
+			80%{transform: rotateZ(300deg);}
+			85%{transform: rotateZ(350deg);}
+			100%{transform: rotateZ(360deg);}
+		}
+
+.sp1{
+	color: rgb(130, 90, 23); 
+	font-family: "微软雅黑"; 
+	font-size: 16px; 
+	font-weight: bold;
+	position: absolute;
+	top: 13%;
+	left: 39.5%; 
+	z-index: 10; 
+}
+.sp2{
+	font-family: "微软雅黑"; 
+	font-weight: bold; 
+	font-size: 14px; 
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 30%;
+	left: 44.5%; 
+	z-index: 10; 
+}
+.sp3{
+	font-family: "微软雅黑"; 
+	font-weight: bold; 
+	font-size: 14px; 
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 40%;
+	left: 43.5%; 
+	z-index: 10; 
+}
+.sp4{
+	font-family: "微软雅黑"; 
+	font-weight: bold; 
+	font-size: 14px; 
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 50%;
+	left: 45.5%; 
+	z-index: 10; 
+}
+.sp5{
+	font-family: "微软雅黑"; 
+	font-weight: bold; 
+	font-size: 14px; 
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 60%;
+	left: 44.5%; 
+	z-index: 10; 
+}
+/*==========pic3==========*/
+.pic-3{
+	background-image: url(../img/bg-1.png);
+	background-size: cover;
+} 
+.p3-1{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 27%;
+	left: 10%;
+}
+.p3-2{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 41%;
+	left: 10%;
+}
+.p3-3{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 55%;
+	left: 10%;
+}
+.p3-4{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top: 70%;
+	left: 10%;
+}
+.sp3-2{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 29%;
+	left: 15%;
+}
+.sp3-3{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 43%;
+	left: 14%;
+}
+.sp3-4{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 57%;
+	left: 15.5%;
+}
+.sp3-5{
+	font-family: "微软雅黑";
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 71.5%;
+	left: 15%;
+}
+/*xiangxaing*/
+.x1-1{
+	position: absolute;
+	top: 28%;
+	left: 29%;
+}
+.x1-2{
+	position: absolute;
+	top: 28%;
+	left: 39%;
+}
+.x1-3{
+	position: absolute;
+	top: 28%;
+	left: 49%;
+}
+.x1-4{
+	position: absolute;
+	top: 28%;
+	left: 59%;
+}
+.x1-5{
+	position: absolute;
+	top: 28%;
+	left: 69%;
+}
+/*==========*/
+.x2-1{
+	position: absolute;
+	top: 42%;
+	left: 29%;
+}
+.x2-2{
+	position: absolute;
+	top: 42%;
+	left: 39%;
+}
+.x2-3{
+	position: absolute;
+	top: 42%;
+	left: 49%;
+}
+.x2-4{
+	position: absolute;
+	top: 42%;
+	left: 59%;
+}
+/*=============*/
+.x3-1{
+	position: absolute;
+	top: 55%;
+	left: 29%;
+}
+.x3-2{
+	position: absolute;
+	top: 55%;
+	left: 39%;
+}
+.x3-3{
+	position: absolute;
+	top: 55%;
+	left: 49%;
+}
+.x3-4{
+	position: absolute;
+	top: 55%;
+	left: 59%;
+}
+/*============*/
+.x4-1{
+	position: absolute;
+	top: 71%;
+	left: 29%;
+}
+.x4-2{
+	position: absolute;
+	top: 71%;
+	left: 39%;
+}
+.x4-3{
+	position: absolute;
+	top: 71%;
+	left: 49%;
+}
+.x4-4{
+	position: absolute;
+	top: 71%;
+	left: 59%;
+}
+.x4-5{
+	position: absolute;
+	top: 71%;
+	left: 69%;
+}
+/*==========pic-4==========*/
+.pic-4{
+	background-image: url(../img/bg-1.png);
+	background-size: cover;
+}
+.p41{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	top: 36%;
+	left: 21%;
+}
+.pic-6{
+	background-image: url(../img/bg-1.png);
+	background-size: cover;
+}
+.mw{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:30%;
+	left: 33%;
+}
+.p61{
+	position: absolute;
+	top: 54%;
+	left: 31%;
+}
+.p62{
+	position: absolute;
+	top: 64%;
+	left: 31%;
+}
+.sp61{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 56%;
+	left: 33%;
+}
+.sp62{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(130, 90, 23);
+	position: absolute;
+	top: 66%;
+	left: 33%;
+}
